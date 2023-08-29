@@ -41,7 +41,7 @@ const Socialmedia = () => {
           <p className={`${styles.sectionSubText}`}>Where else to find me </p>
           <h2 className={`${styles.sectionHeadText}`}>Social Media</h2>
         </motion.div>
-        <div className="py-6 flex flex-wrap">
+        <div className="container text-center py-6">
           <p className="">
             <a
               className="px-4 blue-text-gradient"

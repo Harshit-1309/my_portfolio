@@ -4,7 +4,6 @@ import {
   creator,
   web,
   javascript,
-  typescript,
   html,
   css,
   reactjs,
@@ -12,6 +11,7 @@ import {
   tailwind,
   nodejs,
   mongodb,
+  typescript,
   git,
   figma,
   docker,
@@ -37,7 +37,7 @@ import {
   harshit4,
   ritt,
   axhat,
-  rahul
+  rahul,
 } from "../assets";
 
 export const navLinks = [
@@ -118,6 +118,14 @@ const technologies = [
   {
     name: "Tailwind CSS",
     icon: tailwind,
+  },
+  {
+    name: "TypeScript",
+    icon: typescript,
+  },
+  {
+    name: "Figma",
+    icon: figma,
   },
   {
     name: "HTML 5",
@@ -231,7 +239,8 @@ const projects = [
       },
     ],
     image: carrent,
-    source_code_link: "https://github.com/Harshit-1309/Contact-Management-System/tree/6084aa59a52da6d2d2eecbfca66d2e97eee74a3a",
+    source_code_link:
+      "https://github.com/Harshit-1309/Contact-Management-System/tree/6084aa59a52da6d2d2eecbfca66d2e97eee74a3a",
   },
   {
     name: "Online Photo Gallery",
@@ -280,25 +289,25 @@ const projects = [
 const socialmediasites = [
   {
     title: "LinkedIn",
-    icon: linkedin
+    icon: linkedin,
   },
   {
     title: "Instagram",
-    icon: instagram
+    icon: instagram,
   },
   {
     title: "Facebook",
-    icon: facebook
+    icon: facebook,
   },
   {
     title: "Twitter",
-    icon: twitter
-  }
+    icon: twitter,
+  },
 ];
 const harshitPic = [
   {
     title: "",
-    icon: harshit
+    icon: harshit,
   },
   // {
   //   title: "",
@@ -314,4 +323,12 @@ const harshitPic = [
   // },
 ];
 
-export { services, technologies, experiences, testimonials, projects, socialmediasites, harshitPic };
+export {
+  services,
+  technologies,
+  experiences,
+  testimonials,
+  projects,
+  socialmediasites,
+  harshitPic,
+};

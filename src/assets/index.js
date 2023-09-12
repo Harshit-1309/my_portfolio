@@ -20,10 +20,10 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
-import python from './tech/python.png';
-import java from './tech/java.png';
-import php from './tech/php.png';
-import mysql from './tech/mysql.png';
+import python from "./tech/python.png";
+import java from "./tech/java.png";
+import php from "./tech/php.png";
+import mysql from "./tech/mysql.png";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -33,21 +33,21 @@ import tesla from "./company/tesla.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import easydo from "./easydo.jpg";
 
-import facebook from "./socialmedia/facebook.png"
-import linkedin from "./socialmedia/linkedin.png"
-import instagram from "./socialmedia/instagram.png"
-import twitter from "./socialmedia/twitter.png"
+import facebook from "./socialmedia/facebook.png";
+import linkedin from "./socialmedia/linkedin.png";
+import instagram from "./socialmedia/instagram.png";
+import twitter from "./socialmedia/twitter.png";
 
-import harshit from "./mypic/harshit.jpg"
-import harshit2 from "./mypic/harshit2.jpg"
-import harshit3 from "./mypic/harshit3.jpg"
-import harshit4 from "./mypic/harshit4.jpg"
+import harshit from "./mypic/harshit.jpg";
+import harshit2 from "./mypic/harshit2.jpg";
+import harshit3 from "./mypic/harshit3.jpg";
+import harshit4 from "./mypic/harshit4.jpg";
 
-
-import ritt from "./mypic/ritt.jpg"
-import axhat from "./mypic/axhat.jpg"
-import rahul from "./mypic/rahul.jpg"
+import ritt from "./mypic/ritt.jpg";
+import axhat from "./mypic/axhat.jpg";
+import rahul from "./mypic/rahul.jpg";
 
 export {
   logo,
@@ -76,6 +76,7 @@ export {
   starbucks,
   tesla,
   carrent,
+  easydo,
   jobit,
   tripguide,
   python,
@@ -92,5 +93,5 @@ export {
   harshit4,
   ritt,
   axhat,
-  rahul
+  rahul,
 };

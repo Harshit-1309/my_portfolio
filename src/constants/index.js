@@ -19,6 +19,7 @@ import {
   starbucks,
   tesla,
   shopify,
+  easydo,
   carrent,
   jobit,
   tripguide,
@@ -243,25 +244,25 @@ const projects = [
       "https://github.com/Harshit-1309/Contact-Management-System/tree/6084aa59a52da6d2d2eecbfca66d2e97eee74a3a",
   },
   {
-    name: "Online Photo Gallery",
+    name: "Easy Do",
     description:
-      "Developed an interactive online photo gallery for a photographer, showcasing their work and enabling visitors to view photos and contact the photographer.",
+      "Built a To-Do list application for Android and iOS using React Native. The app should allow users to register and log in with their registered credentials.",
     tags: [
       {
-        name: "php",
+        name: "reactnative",
         color: "blue-text-gradient",
       },
       {
-        name: "bootstrap",
+        name: "typescript",
         color: "green-text-gradient",
       },
       {
-        name: "sql",
+        name: "mongoDB",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: easydo,
+    source_code_link: "https://github.com/Harshit-1309/EasyDo.git",
   },
   {
     name: "Online Food Delivery",

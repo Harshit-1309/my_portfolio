@@ -62,7 +62,7 @@ const services = [
     icon: web,
   },
   {
-    title: "PHP Developer",
+    title: "Frontend Developer",
     icon: mobile,
   },
   {
@@ -140,57 +140,56 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Job Role 1",
-    company_name: "Company 1",
+    title: "MERN Stack Developer Intern",
+    company_name: "Brainoviq Technology",
     icon: starbucks,
     iconBg: "#383E56",
-    date: "MM YYYY to MM YYYY",
+    date: "Nov, 2022 to Nov, 2023",
     points: [
-      "Details about your job role, what you have done there, your experince.",
-      "Details about your job role, what you have done there, your experince. Details about your job role, what you have done there, your experince.",
-      "Details about your job role, what you have done there, your experince..",
-      "Details about your job role, what you have done there, your experince.",
+      "As a MERN Stack Developer Intern, I actively contributed to the development and enhancement of dynamic web applications ",
+      "Collaborating with a skilled team of professionals, I gained hands-on experience in designing and implementing robust, scalable solutions.",
+      "My responsibilities included utilizing MongoDB for efficient data storage, leveraging Express.js for seamless server-side application logic, and harnessing the power of React.js to create responsive and user-friendly interfaces.",
     ],
   },
-  {
-    title: "Job Role 2",
-    company_name: "Company 2",
-    icon: tesla,
-    iconBg: "#E6DEDD",
-    date: "MM YYYY to MM YYYY",
-    points: [
-      "Details about your job role, what you have done there, your experince.",
-      "Details about your job role, what you have done there, your experince. Details about your job role, what you have done there, your experince.",
-      "Details about your job role, what you have done there, your experince..",
-      "Details about your job role, what you have done there, your experince.",
-    ],
-  },
-  {
-    title: "Job Role 3",
-    company_name: "Company 3",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "MM YYYY to MM YYYY",
-    points: [
-      "Details about your job role, what you have done there, your experince.",
-      "Details about your job role, what you have done there, your experince. Details about your job role, what you have done there, your experince.",
-      "Details about your job role, what you have done there, your experince..",
-      "Details about your job role, what you have done there, your experince.",
-    ],
-  },
-  {
-    title: "Job Role 4",
-    company_name: "Company 4",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "MM YYYY to MM YYYY",
-    points: [
-      "Details about your job role, what you have done there, your experince.",
-      "Details about your job role, what you have done there, your experince. Details about your job role, what you have done there, your experince.",
-      "Details about your job role, what you have done there, your experince..",
-      "Details about your job role, what you have done there, your experince.",
-    ],
-  },
+  // {
+  //   title: "Job Role 2",
+  //   company_name: "Company 2",
+  //   icon: tesla,
+  //   iconBg: "#E6DEDD",
+  //   date: "MM YYYY to MM YYYY",
+  //   points: [
+  //     "Details about your job role, what you have done there, your experince.",
+  //     "Details about your job role, what you have done there, your experince. Details about your job role, what you have done there, your experince.",
+  //     "Details about your job role, what you have done there, your experince..",
+  //     "Details about your job role, what you have done there, your experince.",
+  //   ],
+  // },
+  // {
+  //   title: "Job Role 3",
+  //   company_name: "Company 3",
+  //   icon: shopify,
+  //   iconBg: "#383E56",
+  //   date: "MM YYYY to MM YYYY",
+  //   points: [
+  //     "Details about your job role, what you have done there, your experince.",
+  //     "Details about your job role, what you have done there, your experince. Details about your job role, what you have done there, your experince.",
+  //     "Details about your job role, what you have done there, your experince..",
+  //     "Details about your job role, what you have done there, your experince.",
+  //   ],
+  // },
+  // {
+  //   title: "Job Role 4",
+  //   company_name: "Company 4",
+  //   icon: meta,
+  //   iconBg: "#E6DEDD",
+  //   date: "MM YYYY to MM YYYY",
+  //   points: [
+  //     "Details about your job role, what you have done there, your experince.",
+  //     "Details about your job role, what you have done there, your experince. Details about your job role, what you have done there, your experince.",
+  //     "Details about your job role, what you have done there, your experince..",
+  //     "Details about your job role, what you have done there, your experince.",
+  //   ],
+  // },
 ];
 
 const testimonials = [

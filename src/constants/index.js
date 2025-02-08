@@ -148,7 +148,7 @@ const experiences = [
     points: ["React JS", "JavaScript", "Node JS", "Mongo DB"],
   },
   {
-    title: "Graduate Engineering Training",
+    title: "Software Engineering Trainee",
     company_name: "Gooner Technology",
     icon: tesla,
     iconBg: "#E6DEDD",

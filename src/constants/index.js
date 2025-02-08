@@ -157,7 +157,7 @@ const experiences = [
       "Microsoft Excel",
       "Hyperion Planning",
       "Essbase Database Planning",
-      "NetSuite Plann8ing & Budgeting",
+      "NetSuite Planning & Budgeting",
     ],
   },
   // {

@@ -267,7 +267,7 @@ const projects = [
       },
     ],
     image: easydo,
-    source_code_link: "https://github.com/Harshit-1309/EasyDo.git",
+    source_code_link: "https://github.com/Harshit-1309/Easy-Do.git",
   },
   {
     name: "Online Food Delivery",
@@ -288,7 +288,7 @@ const projects = [
       },
     ],
     image: tripguide,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/Harshit-1309/FoodCall.git",
   },
 ];
 

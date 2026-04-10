@@ -43,9 +43,8 @@ import instagram from "./socialmedia/instagram.png";
 import twitter from "./socialmedia/twitter.png";
 
 import harshit from "./mypic/harshit.jpg";
-import harshit2 from "./mypic/harshit2.jpg";
-import harshit3 from "./mypic/harshit3.jpg";
-import harshit4 from "./mypic/harshit4.jpg";
+import harshit1 from "./mypic/harshit1.jpeg";
+import harshit3 from "./mypic/harshit3.jpeg";
 
 import ritt from "./mypic/ritt.jpg";
 import axhat from "./mypic/axhat.jpg";
@@ -90,9 +89,8 @@ export {
   instagram,
   twitter,
   harshit,
-  harshit2,
+  harshit1,
   harshit3,
-  harshit4,
   ritt,
   axhat,
   rahul,

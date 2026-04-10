@@ -33,9 +33,8 @@ import {
   twitter,
   linkedin,
   harshit,
-  harshit2,
+  harshit1,
   harshit3,
-  harshit4,
   ritt,
   axhat,
   rahul,
@@ -200,8 +199,8 @@ const testimonials = [
     testimonial:
       "I thought it was next to impossible to make a website as beautiful as this, but Harshit proved me wrong. Great Work!",
     name: "Ritesh Raj Singh",
-    designation: "Sr. Software Er",
-    company: "HCL Tech",
+    designation: "Data Engineer",
+    company: "Visa",
     image: ritt,
   },
   {
@@ -209,14 +208,14 @@ const testimonials = [
       "I've seen Harshit working very hard and his eager to dive deeper into technologies makes him a great future asset.",
     name: "Akshat Bhashkar",
     designation: "Software Engineer",
-    company: "ShareChat",
+    company: "Observe.AI",
     image: axhat,
   },
   {
     testimonial:
       " Harshit is a true rockstar when it comes to building web apps. He volunteer to pick new things and explore on its own.",
     name: "Rahul Kumar",
-    designation: "Process Engineer",
+    designation: "Lead Engineer",
     company: "Samsung",
     image: rahul,
   },
@@ -316,18 +315,14 @@ const harshitPic = [
     title: "",
     icon: harshit,
   },
-  // {
-  //   title: "",
-  //   icon: harshit2
-  // },
-  // {
-  //   title: "",
-  //   icon: harshit3
-  // },
-  // {
-  //   title: "",
-  //   icon: harshit4
-  // },
+  {
+    title: "",
+    icon: harshit1,
+  },
+  {
+    title: "",
+    icon: harshit3,
+  },
 ];
 
 export {

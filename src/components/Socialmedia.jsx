@@ -8,10 +8,10 @@ import { harshitPic } from "../constants";
 
 const PhotoCard = ({ index, title, icon }) => {
   return (
-    <Tilt className="xs:w-[250px] w-full">
+    <Tilt className="xs:w-[150px] w-full">
       <motion.div
         variants={fadeIn("right", "spring", 0.5 * index, 0.75)}
-        className="w-full green-pink-gradient p-[1px] rounded-[20px] shadow-card"
+        className="w-full green-pink-gradient p-[1px] rounded-[20px]"
       >
         <div
           options={{
@@ -19,12 +19,12 @@ const PhotoCard = ({ index, title, icon }) => {
             scale: 1,
             speed: 450,
           }}
-          className="bg-tertiary rounded-[20px] min-h-[280px] flex justify-center items-center flex-col overflow-hidden"
+          className="bg-tertiary rounded-[20px] min-h-[180px] flex justify-center items-center flex-col overflow-hidden"
         >
           <img
             src={icon}
             alt={title || "Harshit"}
-            className="w-full h-[280px] object-cover rounded-[20px]"
+            className="w-full h-[210px] object-cover rounded-[20px]"
           />
           {title && (
             <h3 className="text-white text-[20px] font-bold text-center mt-2 px-4 pb-4">

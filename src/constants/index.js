@@ -39,7 +39,9 @@ import {
   ritt,
   axhat,
   rahul,
+  groovy,
 } from "../assets";
+
 
 export const navLinks = [
   {
@@ -136,7 +138,12 @@ const technologies = [
     name: "CSS 3",
     icon: css,
   },
+  {
+    name: "Groovy",
+    icon: groovy,
+  },
 ];
+
 
 const experiences = [
   {
@@ -148,8 +155,8 @@ const experiences = [
     points: ["React JS", "JavaScript", "Node JS", "Mongo DB"],
   },
   {
-    title: "Software Engineering Trainee",
-    company_name: "Gooner Technology",
+    title: "Associate Consultant",
+    company_name: "Gooner Technologies Pvt Ltd",
     icon: tesla,
     iconBg: "#E6DEDD",
     date: "Feb, 2025 to Present",
@@ -217,10 +224,14 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Contact Management System",
+    name: "Trackly",
     description:
-      "A web-based contact management system that allows users to register, login, and perform CRUD operations on their contacts.",
+      "A web-based time tracking application that allows users to login, manage tasks and perform CRUD operations on day-to-day tasks.",
     tags: [
+       {
+        name: "react",
+        color: "blue-text-gradient",
+      },
       {
         name: "node",
         color: "blue-text-gradient",
@@ -236,7 +247,7 @@ const projects = [
     ],
     image: carrent,
     source_code_link:
-      "https://github.com/Harshit-1309/Contact-Management-System/tree/6084aa59a52da6d2d2eecbfca66d2e97eee74a3a",
+      "https://github.com/Harshit-1309/trackly.git",
   },
   {
     name: "Easy Do",

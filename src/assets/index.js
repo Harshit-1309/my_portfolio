@@ -24,6 +24,8 @@ import python from "./tech/python.png";
 import java from "./tech/java.png";
 import php from "./tech/php.png";
 import mysql from "./tech/mysql.png";
+import groovy from "./tech/Groovy.png";
+
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -94,4 +96,6 @@ export {
   ritt,
   axhat,
   rahul,
+  groovy,
 };
+

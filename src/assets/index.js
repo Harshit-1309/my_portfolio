@@ -25,7 +25,12 @@ import java from "./tech/java.png";
 import php from "./tech/php.png";
 import mysql from "./tech/mysql.png";
 import groovy from "./tech/Groovy.png";
-
+import n8n from "./tech/n8n.png";
+import oracle from "./tech/oracle.png";
+import openAI from "./tech/openAI.png";
+import claude from "./tech/claude.svg";
+import GitAct from "./tech/GitAct.png";
+import pm2 from "./tech/pm2.png";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -36,7 +41,7 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import easydo from "./easydo.jpg";
-
+import nspb from "./nspb.png";
 import facebook from "./socialmedia/facebook.png";
 import linkedin from "./socialmedia/linkedin.png";
 import instagram from "./socialmedia/instagram.png";
@@ -72,18 +77,25 @@ export {
   tailwind,
   typescript,
   threejs,
+  python,
+  java,
+  php,
+  mysql,
+  n8n,
+  oracle,
+  openAI,
+  claude,
+  GitAct,
+  pm2,
   meta,
   shopify,
   starbucks,
   tesla,
   carrent,
+  nspb,
   easydo,
   jobit,
   tripguide,
-  python,
-  java,
-  php,
-  mysql,
   linkedin,
   facebook,
   instagram,

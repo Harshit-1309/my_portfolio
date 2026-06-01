@@ -7,6 +7,12 @@ import {
   html,
   css,
   reactjs,
+  pm2,
+  n8n,
+  oracle,
+  openAI,
+  claude,
+  GitAct,
   redux,
   tailwind,
   nodejs,
@@ -21,6 +27,7 @@ import {
   shopify,
   easydo,
   carrent,
+  nspb,
   jobit,
   tripguide,
   threejs,
@@ -59,19 +66,19 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Full Stack Developer",
     icon: web,
   },
   {
-    title: "Frontend Developer",
+    title: "AI Automation Engineer",
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "Oracle EPM / NSPB Consultant",
     icon: backend,
   },
   {
-    title: "Java Developer",
+    title: "LLM Integration Engineer",
     icon: creator,
   },
 ];
@@ -141,6 +148,30 @@ const technologies = [
     name: "Groovy",
     icon: groovy,
   },
+  {
+    name: "PM2",
+    icon: pm2,
+  },
+  {
+    name: "N8N",
+    icon: n8n,
+  },
+  {
+    name: "Open AI",
+    icon: openAI,
+  },
+  {
+    name: "Claude",
+    icon: claude,
+  },
+  {
+    name: "GitHub Actions",
+    icon: GitAct,
+  },
+  {
+    name: "Oracle EPM",
+    icon: oracle,
+  },
 ];
 
 
@@ -151,7 +182,10 @@ const experiences = [
     icon: starbucks,
     iconBg: "#383E56",
     date: "Nov, 2022 to Nov, 2023",
-    points: ["React JS", "JavaScript", "Node JS", "Mongo DB"],
+    points: ["Developed scalable full-stack web applications using React.js, Node.js, Express.js, and MongoDB.",
+      "Built responsive user interfaces and integrated RESTful APIs for seamless frontend-backend communication.",
+      "Optimized backend logic and database operations to improve application performance and reliability.",
+      "Collaborated with the development team on feature implementation, debugging, and deployment workflows."],
   },
   {
     title: "Associate Consultant",
@@ -160,10 +194,10 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "Feb, 2025 to Present",
     points: [
-      "Microsoft Excel",
-      "Hyperion Planning",
-      "Essbase Database Planning",
-      "NetSuite Planning & Budgeting",
+      "Worked on Oracle Hyperion Planning, Essbase, NetSuite, and NSPB solutions for enterprise planning and reporting.",
+      "Developed and optimized calc scripts, Groovy rules, and automation workflows for financial processes.",
+      "Built Python scripts and API integrations to streamline data handling and operational efficiency.",
+      "Collaborated with cross-functional teams on budgeting, forecasting, and reporting solutions.",
     ],
   },
   // {
@@ -223,11 +257,37 @@ const testimonials = [
 
 const projects = [
   {
+    name: "NSPB Agent",
+    description:
+      "An AI-powered FP&A assistant that converts natural language queries into multi-dimensional Oracle NSPB insights, enabling real-time financial analysis and reporting.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "node",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "openai",
+        color: "green-text-gradient",
+      },
+      {
+        name: "mcpserver",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: nspb,
+    source_code_link:
+      "https://github.com/Harshit-1309/NSPB_Agent.git",
+  },
+  {
     name: "Trackly",
     description:
       "A web-based time tracking application that allows users to login, manage tasks and perform CRUD operations on day-to-day tasks.",
     tags: [
-       {
+      {
         name: "react",
         color: "blue-text-gradient",
       },

@@ -43,13 +43,14 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        Innovative and adaptable Full Stack Developer specializing in the MERN
-        stack, eager to launch a successful career in web development. Recent
-        university graduate with a strong foundation in JavaScript, React,
-        Node.js, and MongoDB. Passionate about creating dynamic, user-friendly
-        applications that enhance the digital experience. A proactive learner
-        who thrives in collaborative environments and stays up-to-date with
-        emerging technologies and industry best practices.
+        I'm a Full Stack Developer and Associate Consultant
+        working on Oracle EPM solutions, AI-powered
+        applications, automation systems, and enterprise
+        planning platforms.
+
+        I specialize in MERN stack development,
+        LLM-integrated applications, REST APIs,
+        workflow automation, and scalable business solutions..
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">
